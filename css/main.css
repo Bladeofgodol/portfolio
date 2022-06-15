@@ -1,0 +1,42 @@
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: rgb(17, 18, 22);
+    color: lightgray;
+    
+}
+
+.navBar{
+    font-weight:bolder ;
+    
+}
+.navBar:hover{
+    color: teal;
+    text-shadow: 0 0 20px #fff, 0 0 30px #72b6fd, 0 0 40px #4da0ff, 0 0 50px #72b6fd, 0 0 60px #72b6fd, 0 0 70px #72b6fd, 0 0 80px #72b6fd;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.navBar:active{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 20px #fff, 0 0 30px #72b6fd, 0 0 40px #4da0ff, 0 0 50px #72b6fd, 0 0 60px #72b6fd, 0 0 70px #72b6fd, 0 0 80px #72b6fd;
+    transition: text-shadow 0.1s ease-in-out;
+}
+
+.smooth {
+    transition: smooth;
+}
+.carosill-margin{
+    margin: auto;
+    margin-bottom: auto;
+    text-align: justify;
+}
+.carosill-margin-cotrast{
+    color:#27064B;
+}
+
+.mapsize{
+    width:25%; padding:25%;
+}
